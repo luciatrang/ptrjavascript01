@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <!-- Kết nối với file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Khung hiển thị lớn phía trên -->
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <!-- Danh sách các ảnh nhỏ phía dưới để di chuột vào -->
+    <div class="thumbnails">
+        <img class="preview" alt="Mèo con dễ thương" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUytyc2T00QCMDBdZBFztJEuFCDFuK2ilGA-hCJZg4Xw&s=10" onmouseover="upDate(this)" onmouseout="undo()">
+        
+        <img class="preview" alt="Chú chó trung thành" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUytyc2T00QCMDBdZBFztJEuFCDFuK2ilGA-hCJZg4Xw&s=10" onmouseover="upDate(this)" onmouseout="undo()">
+        
+        <img class="preview" alt="Phong cảnh thiên nhiên" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUytyc2T00QCMDBdZBFztJEuFCDFuK2ilGA-hCJZg4Xw&s=10" onmouseover="upDate(this)" onmouseout="undo()">
+    </div>
+
+    <!-- Kết nối với file JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
